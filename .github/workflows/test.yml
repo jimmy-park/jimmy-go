@@ -1,0 +1,7 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    uses: jimmy-park/.github/.github/workflows/test.yml@main
